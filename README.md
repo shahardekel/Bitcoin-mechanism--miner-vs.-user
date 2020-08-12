@@ -15,7 +15,7 @@ The data you are using was collected by an active node in the Bitcoin network du
 - output (int): The amount of Satoshi (1e-8 Bitcoin) spent to this output. May be 0
 - removed (int): he block header time (Unix epoch time) of the block which includes this transaction. Only returned for confirmed transactions.
 - min_value (int): The minimal value of this transaction to the user (in satoshi). (for the TX_data file)
-_ max_value (int): The maximal value of this transaction to the user (in satoshi). (for the TX_data file)
+- max_value (int): The maximal value of this transaction to the user (in satoshi). (for the TX_data file)
 
 for example:
 "155d22d2553eed00170233939238b0ee5098d5b1ef91d19420ef96899b677bd3": {"output": 11743613, "removed": 1504473541, "fee": 16046.0, "time": 1504472139.99, "size": 225}
